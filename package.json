@@ -1,0 +1,42 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "My first web project with backi- and front-end",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint \"**/*.js\" --ignore-path .gitignore",
+    "lint:fix": "eslint \"**/*.js\" --fix --ignore-path .gitignore",
+    "format": "prettier --check . --ignore-path .gitignore",
+    "format:fix": "prettier --write . --ignore-path .gitignore",
+    "fixAll": "npm run format:fix && npm run eslint:fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run formate",
+      "pre-push": "npm run lint && npm run formate"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roman212Koval/shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roman212Koval/shop/issues"
+  },
+  "homepage": "https://github.com/Roman212Koval/shop#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^8.0.1",
+    "prettier": "2.6.2"
+  }
+}
