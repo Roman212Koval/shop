@@ -5,6 +5,6 @@ function foo( name) {
   return fk;
 }
 
-const x = foo( 5);
+const x = foo(5);
 
 console.log(`${a + x}`);
