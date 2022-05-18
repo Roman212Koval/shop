@@ -1,6 +1,6 @@
-const a= 1;
+const a = 1;
 
-function foo( name) {
+function foo(name) {
   const fk = name;
   return fk;
 }
@@ -8,3 +8,4 @@ function foo( name) {
 const x = foo(5);
 
 console.log(`${a + x}`);
+console.log("HEllo");
