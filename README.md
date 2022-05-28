@@ -10,11 +10,14 @@ In fact, the best visitor ratings are not to increase visitor ratings, but to im
 
 # Tech stack
 Backend:
-- - [ ] Node.js
-- - [ ] Express
-- - [ ] PostgreSQL
-- - [ ] Sequelize
+- Node.js
+- Express
+- PostgreSQL
+- Sequelize
   
 Front:
-- - [ ] React
+- Bootstrap
+
+# Database schema
+![DB](./doc/db_schema.png)
 
