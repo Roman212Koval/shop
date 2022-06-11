@@ -1,11 +1,17 @@
 const { Type } = require("../models/model");
+const Validator = require("../validator/Validator");
 // const ApiError = require("../error/apiError");
 
 class TypeController {
   async create(req, res) {
-    const { name } = req.body;
-    const type = await Type.create({ name });
-    return res.json(type);
+    try {
+      const { name } = Validator.name(req.body);
+      const type = await Type.create({ name });
+      return res.json(type);
+    } catch (err) {
+      console.log(`Error  Error   Error   Error`);
+      return res.send(err);
+    }
   }
 
   async getAll(req, res) {
@@ -14,29 +20,39 @@ class TypeController {
   }
 
   async update(req, res) {
-    const { name } = req.body;
-    const { id } = req.params;
-    const update = await Type.update(
-      {
-        name,
-      },
-      {
-        where: { id },
-      }
-    );
-    return res.json(update);
+    try {
+      const { name } = Validator.name(req.body);
+      const { id } = Validator.id(req.params);
+      const update = await Type.update(
+        {
+          name,
+        },
+        {
+          where: { id },
+        }
+      );
+      return res.json(update);
+    } catch (err) {
+      console.log(`Error  Error   Error   Error`);
+      return res.send(err);
+    }
   }
 
-  async delet(req, res) {
-    const { id } = req.params;
+  async delete(req, res) {
+    try {
+      const { id } = req.params;
 
-    const del = Type.destroy({
-      where: {
-        id,
-      },
-    });
+      const del = Type.destroy({
+        where: {
+          id,
+        },
+      });
 
-    return res.json(del);
+      return res.json(del);
+    } catch (err) {
+      console.log(`Error  Error   Error   Error`);
+      return res.send(err);
+    }
   }
 }
 

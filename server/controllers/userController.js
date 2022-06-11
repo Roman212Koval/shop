@@ -1,16 +1,19 @@
-const ApiError = require("../error/apiError");
+// const ApiError = require("../error/apiError");
+const Validator = require("../validator/Validator");
 
 class UserController {
   /* async registration(req, res) {}
 
   async login(req, res) {}
   */
-  async check(req, res, next) {
-    const { id } = req.query;
-    if (!id) {
-      return next(ApiError.badRequest("YOU must input an ID"));
+  async check(req, res) {
+    try {
+      const { id } = Validator.id(req.params);
+
+      return res.json(id);
+    } catch (err) {
+      return res.send(err);
     }
-    return res.json(id);
   }
 }
 
