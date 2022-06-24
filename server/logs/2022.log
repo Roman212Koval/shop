@@ -302,3 +302,13 @@
 {"level":"info","message":"Resource requested: POST /api/user/registration","timestamp":"2022-06-24T18:20:38.552Z"}
 {"level":"info","message":"Resource requested: POST /api/user/registration","timestamp":"2022-06-24T18:20:44.039Z"}
 {"level":"info","message":"Resource requested: POST /api/user/registration","timestamp":"2022-06-24T18:20:52.477Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T19:25:24.454Z"}
+{"level":"info","message":"Resource requested: GET /","timestamp":"2022-06-24T20:32:37.934Z"}
+{"level":"info","message":"Resource requested: GET /favicon.ico","timestamp":"2022-06-24T20:32:38.100Z"}
+{"level":"info","message":"Resource requested: GET /api","timestamp":"2022-06-24T20:32:48.530Z"}
+{"level":"info","message":"Resource requested: GET /favicon.ico","timestamp":"2022-06-24T20:32:48.633Z"}
+{"level":"info","message":"Resource requested: GET /api/user","timestamp":"2022-06-24T20:33:01.182Z"}
+{"level":"info","message":"Resource requested: GET /favicon.ico","timestamp":"2022-06-24T20:33:01.317Z"}
+{"level":"info","message":"Resource requested: GET /api/user/auth","timestamp":"2022-06-24T20:33:07.799Z"}
+{"level":"error","message":"Користувач не авторизований (status code 400)","timestamp":"2022-06-24T20:33:07.802Z"}
+{"level":"info","message":"Resource requested: GET /favicon.ico","timestamp":"2022-06-24T20:33:07.887Z"}
