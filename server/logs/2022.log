@@ -120,3 +120,6 @@
 {"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:31:01.743Z"}
 {"level":"error","message":"Incorrect password!!! (status code 500)","timestamp":"2022-06-24T12:31:01.761Z"}
 {"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:31:05.752Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T13:00:26.269Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T13:00:30.424Z"}
+{"level":"error","message":"Incorrect password!!! (status code 500)","timestamp":"2022-06-24T13:00:30.432Z"}
