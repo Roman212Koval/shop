@@ -1,4 +1,4 @@
-const winston = require('winston');
+const winston = require("winston");
 
 const currentYear = new Date().getFullYear();
 const logConfiguration = {
@@ -8,8 +8,8 @@ const logConfiguration = {
   ),
   transports: [
     new winston.transports.File({ filename: `server/logs/${currentYear}.log` }),
-    new winston.transports.Console()
-  ]
+    new winston.transports.Console(),
+  ],
 };
 
 module.exports = winston.createLogger(logConfiguration);

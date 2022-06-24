@@ -7,45 +7,41 @@ const sequelize = require("./db");
 // const models = require('./models/model')
 const router = require("./routes/main");
 const errorHandler = require("./middleware/ErrorMiddleware");
-const logger = require('./logs/logger');
-const createError = require('http-errors');
+const logger = require("./logs/logger");
 
 const PORT = process.env.PORT || 5000;
-
 
 app.use(cors());
 app.use(express.json());
 app.use(express.static(path.resolve(__dirname, "static")));
 app.use(fileUpload({}));
 
-
 app.use((req, res, next) => {
   logger.info({
-    message: `Resource requested: ${req.method} ${req.originalUrl}`
+    message: `Resource requested: ${req.method} ${req.originalUrl}`,
   });
   next();
 });
 app.use("/api", router);
-
 
 app.use((err, req, res, next) => {
   const errors = [];
   if (!Array.isArray(err)) {
     errors.push({
       status: err.status || 500,
-      message: err.message || 'An error occured'
+      message: err.message || "An error occured",
     });
   } else {
     err.forEach((x) => {
       errors.push({
         status: x.status || 500,
-        message: x.message || 'An error occured'
+        message: x.message || "An error occured",
       });
     });
   }
   errors.forEach((x) => {
     logger.error({
-      message: `${x.message} (status code ${x.status || 500})`
+      message: `${x.message} (status code ${x.status || 500})`,
     });
   });
 
@@ -53,9 +49,7 @@ app.use((err, req, res, next) => {
   res.send({ errors });
 });
 
-
 app.use(errorHandler); // must be last app.use
-
 
 const start = async () => {
   try {
@@ -71,4 +65,3 @@ const start = async () => {
 };
 
 start();
-

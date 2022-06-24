@@ -1,26 +1,26 @@
-const validator = require('validator');
+const validator = require("validator");
 const _ = require("lodash");
 const ValidationError = require("./ValidationError");
 
 function badName(req) {
   console.log(`You need input 'name' or ${req.name} - It is not STRING format`);
-  throw ValidationError("name", 'NAME is incorect!');
+  throw ValidationError("name", "NAME is incorect!");
 }
 
 function badId() {
   console.log(`You need input ID`);
-  throw ValidationError("id", 'ID is incorect!');
+  throw ValidationError("id", "ID is incorect!");
 }
 
 function badEmail() {
   console.log(`You need input Email`);
-  throw ValidationError("Email", 'Email is incorect!');
+  throw ValidationError("Email", "Email is incorect!");
 }
 
 function letStr(str) {
-  const okString = validator.isLength(str , {min:6, max: 20});
-if(!okString) {
-  ValidationError("String", 'String must have a minimum length of 6!');
+  const okString = validator.isLength(str, { min: 6, max: 20 });
+  if (!okString) {
+    ValidationError("String", "String must have a minimum length of 6!");
   }
 }
 
@@ -40,9 +40,8 @@ class BrandValidator {
   }
 
   email(req) {
-
     if (!req.email || !validator.isEmail(req.email)) {
-      badEmail(req);
+      badEmail();
     }
     return req;
   }

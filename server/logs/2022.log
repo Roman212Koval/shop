@@ -92,3 +92,31 @@
 {"level":"info","message":"Resource requested: POST /api/user/admin","timestamp":"2022-06-21T17:30:11.328Z"}
 {"level":"error","message":"Користувач не знайдений (status code 500)","timestamp":"2022-06-21T17:30:11.330Z"}
 {"level":"info","message":"Resource requested: POST /api/user/admin","timestamp":"2022-06-21T17:30:15.986Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:17:08.677Z"}
+{"level":"error","message":"String must have a minimum length of 6! (status code 400)","timestamp":"2022-06-24T12:17:08.686Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:17:15.138Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:17:17.863Z"}
+{"level":"error","message":"Incorrect password!!! (status code 500)","timestamp":"2022-06-24T12:17:17.876Z"}
+{"level":"info","message":"Resource requested: GET /api/user/auth","timestamp":"2022-06-24T12:19:22.868Z"}
+{"level":"error","message":"Невалідний токен (status code 400)","timestamp":"2022-06-24T12:19:22.874Z"}
+{"level":"info","message":"Resource requested: GET /api/user/auth","timestamp":"2022-06-24T12:20:31.099Z"}
+{"level":"error","message":"Невалідний токен (status code 400)","timestamp":"2022-06-24T12:20:31.104Z"}
+{"level":"info","message":"Resource requested: GET /api/user/auth","timestamp":"2022-06-24T12:20:31.886Z"}
+{"level":"error","message":"Невалідний токен (status code 400)","timestamp":"2022-06-24T12:20:31.889Z"}
+{"level":"info","message":"Resource requested: GET /api/user/auth","timestamp":"2022-06-24T12:22:05.619Z"}
+{"level":"error","message":"Невалідний токен (status code 400)","timestamp":"2022-06-24T12:22:05.624Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:22:11.496Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:22:15.276Z"}
+{"level":"error","message":"Incorrect password!!! (status code 500)","timestamp":"2022-06-24T12:22:15.285Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:24:03.561Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:24:07.152Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:24:23.508Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:24:25.893Z"}
+{"level":"error","message":"Incorrect password!!! (status code 500)","timestamp":"2022-06-24T12:24:25.900Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:25:05.021Z"}
+{"level":"error","message":"Incorrect password!!! (status code 500)","timestamp":"2022-06-24T12:25:05.041Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:25:06.900Z"}
+{"level":"error","message":"Incorrect password!!! (status code 500)","timestamp":"2022-06-24T12:25:06.909Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:31:01.743Z"}
+{"level":"error","message":"Incorrect password!!! (status code 500)","timestamp":"2022-06-24T12:31:01.761Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T12:31:05.752Z"}
