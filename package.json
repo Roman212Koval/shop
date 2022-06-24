@@ -4,7 +4,7 @@
   "description": "My first web project with back- and front-end",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server/index.js",
     "prepare": "husky install",
     "lint": "eslint \"**/*.js\" --ignore-path .gitignore",
     "lint:fix": "eslint \"**/*.js\" --fix --ignore-path .gitignore",
