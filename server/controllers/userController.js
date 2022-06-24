@@ -1,7 +1,6 @@
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const createError = require("http-errors");
-// const Validator = require("../validator/Validator");
 const Validator = require("../validator/Validator");
 const { User, Basket } = require("../models/model");
 const { SECRET_KEY } = require("../db_config");
@@ -15,6 +14,11 @@ const comparePassword = (password, hash) => {
   const compare = bcrypt.compareSync(password, hash);
   if (!compare) {
     throw new Error("Incorrect password!!!");
+  }
+};
+const checkRole = (role) => {
+  if (role !== "ADMIN") {
+    throw new Error("Немає доступу!!!");
   }
 };
 
@@ -44,7 +48,7 @@ class UserController {
       const { password } = Validator.password(req.body);
       const user = await User.findOne({ where: { email } });
       if (!user) {
-        throw createError(500, "Користувач не знайдений!");
+        throw createError(500, `Акаунт ${email} не істує!`);
       }
 
       comparePassword(password, user.password);
@@ -64,9 +68,9 @@ class UserController {
   async delete(req, res, next) {
     try {
       let { id } = Validator.id(req.user);
-      const { role } = req.user;
 
-      if (role === "ADMIN") {
+      if (id != req.body.id) {
+        checkRole(req.user.role);
         id = req.body.id;
       }
       const user = await User.findOne({ where: { id } });
@@ -93,8 +97,8 @@ class UserController {
       const newPasswordHash = await bcrypt.hash(newPassword, 5);
       let { id } = Validator.id(req.user);
 
-      const { role } = req.user;
-      if (role === "ADMIN") {
+      if (id != req.body.id) {
+        checkRole("ADMIN");
         id = req.body.id;
       }
       const user = await User.findOne({ where: { id } });

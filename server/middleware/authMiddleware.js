@@ -12,11 +12,12 @@ module.exports = async (req, res, next) => {
     const token = authHeader && authHeader.split(" ")[1];
 
     if (token == null) {
-      throw createError(400, "Користувач не знайдений (прострочений токен)");
+      throw createError(400, "Користувач не авторизований");
     }
-    const decoded = jwt.verify(token, SECRET_KEY, () => {
-      throw createError(400, "Невалідний токен");
-    });
+    const decoded = jwt.verify(token, SECRET_KEY);
+    if (decoded == null) {
+      throw createError(500, "invalid token");
+    }
     const { email } = decoded;
     const user = await User.findOne({ where: { email } });
     if (!user) {

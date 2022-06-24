@@ -123,3 +123,182 @@
 {"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T13:00:26.269Z"}
 {"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T13:00:30.424Z"}
 {"level":"error","message":"Incorrect password!!! (status code 500)","timestamp":"2022-06-24T13:00:30.432Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T14:58:06.846Z"}
+{"level":"error","message":"Incorrect password!!! (status code 500)","timestamp":"2022-06-24T14:58:06.869Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T14:58:12.128Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T15:02:53.509Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:03:08.175Z"}
+{"level":"error","message":"Невалідний токен (status code 400)","timestamp":"2022-06-24T15:03:08.180Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:03:22.606Z"}
+{"level":"error","message":"Невалідний токен (status code 400)","timestamp":"2022-06-24T15:03:22.608Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:03:34.104Z"}
+{"level":"error","message":"Невалідний токен (status code 400)","timestamp":"2022-06-24T15:03:34.106Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:03:45.340Z"}
+{"level":"error","message":"Невалідний токен (status code 400)","timestamp":"2022-06-24T15:03:45.342Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:04:24.322Z"}
+{"level":"error","message":"Невалідний токен (status code 400)","timestamp":"2022-06-24T15:04:24.328Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:04:59.289Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:05:04.872Z"}
+{"level":"error","message":"invalid token (status code 500)","timestamp":"2022-06-24T15:05:04.874Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:06:45.769Z"}
+{"level":"error","message":"invalid token (status code 500)","timestamp":"2022-06-24T15:06:45.775Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:11:19.538Z"}
+{"level":"error","message":"invalid token (status code 500)","timestamp":"2022-06-24T15:11:19.542Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:11:49.700Z"}
+{"level":"error","message":"Користувач не знайдений (status code 400)","timestamp":"2022-06-24T15:11:49.803Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:12:01.377Z"}
+{"level":"error","message":"Користувач не знайдений (status code 400)","timestamp":"2022-06-24T15:12:01.552Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:12:14.987Z"}
+{"level":"error","message":"Користувач не знайдений (status code 400)","timestamp":"2022-06-24T15:12:15.172Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:13:46.688Z"}
+{"level":"error","message":"Користувач не знайдений (status code 400)","timestamp":"2022-06-24T15:13:46.702Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:16:50.734Z"}
+{"level":"error","message":"Користувач не знайдений-- (status code 400)","timestamp":"2022-06-24T15:16:50.747Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T15:17:16.659Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:18:15.208Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T15:20:34.431Z"}
+{"level":"error","message":"Користувач не знайдений! (status code 500)","timestamp":"2022-06-24T15:20:34.515Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T15:21:53.118Z"}
+{"level":"error","message":"Акаунт 22Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T15:21:53.135Z"}
+{"level":"info","message":"Resource requested: POST /api/user/registration","timestamp":"2022-06-24T15:22:25.605Z"}
+{"level":"info","message":"Resource requested: POST /api/user/registration","timestamp":"2022-06-24T15:22:31.299Z"}
+{"level":"info","message":"Resource requested: POST /api/user/registration","timestamp":"2022-06-24T15:22:36.856Z"}
+{"level":"info","message":"Resource requested: POST /api/user/registration","timestamp":"2022-06-24T15:22:41.609Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T15:24:00.271Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:24:25.550Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:24:25.636Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:27:27.720Z"}
+{"level":"error","message":"Користувач не авторизований (status code 400)","timestamp":"2022-06-24T15:27:27.722Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:27:50.352Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:27:50.434Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:29:19.893Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:29:19.908Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:29:38.765Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:29:38.782Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:30:13.718Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:30:13.734Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:30:53.723Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:30:53.740Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:31:09.755Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:31:09.772Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:31:10.640Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:31:10.645Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:31:11.407Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:31:11.413Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:31:22.241Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:31:22.257Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:31:54.268Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:31:54.285Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:32:14.864Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:32:14.881Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:32:54.047Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:32:54.063Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:34:04.264Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:34:04.280Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:34:55.945Z"}
+{"level":"error","message":"Cannot read property 'method' of undefined (status code 500)","timestamp":"2022-06-24T15:34:55.961Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:35:43.380Z"}
+{"level":"error","message":"Cannot read property 'method' of undefined (status code 500)","timestamp":"2022-06-24T15:35:43.394Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:38:14.288Z"}
+{"level":"error","message":"Cannot read property 'method' of undefined (status code 500)","timestamp":"2022-06-24T15:38:14.303Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:38:36.125Z"}
+{"level":"error","message":"Користувач не знайдений!! (status code 500)","timestamp":"2022-06-24T15:38:36.146Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:39:40.160Z"}
+{"level":"error","message":"next is not a function (status code 500)","timestamp":"2022-06-24T15:39:40.176Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:40:36.022Z"}
+{"level":"error","message":"next is not a function (status code 500)","timestamp":"2022-06-24T15:40:36.039Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:41:30.792Z"}
+{"level":"error","message":"next is not a function (status code 500)","timestamp":"2022-06-24T15:41:30.806Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:41:44.943Z"}
+{"level":"error","message":"next is not a function (status code 500)","timestamp":"2022-06-24T15:41:44.960Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:42:13.337Z"}
+{"level":"error","message":"next is not a function (status code 500)","timestamp":"2022-06-24T15:42:13.352Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:43:51.485Z"}
+{"level":"error","message":"next is not a function (status code 500)","timestamp":"2022-06-24T15:43:51.504Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:44:31.870Z"}
+{"level":"error","message":"next is not a function (status code 500)","timestamp":"2022-06-24T15:44:31.890Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:45:04.950Z"}
+{"level":"error","message":"next is not a function (status code 500)","timestamp":"2022-06-24T15:45:04.968Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:45:20.971Z"}
+{"level":"error","message":"Немає доступу! (status code 400)","timestamp":"2022-06-24T15:45:20.987Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:46:10.762Z"}
+{"level":"error","message":"Немає доступу! (status code 400)","timestamp":"2022-06-24T15:46:10.777Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:50:11.195Z"}
+{"level":"error","message":"Немає доступу! (status code 400)","timestamp":"2022-06-24T15:50:11.296Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:50:43.538Z"}
+{"level":"error","message":"Немає доступу! (status code 400)","timestamp":"2022-06-24T15:50:43.555Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:51:39.261Z"}
+{"level":"error","message":"Немає доступу! (status code 400)","timestamp":"2022-06-24T15:51:39.460Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:53:29.269Z"}
+{"level":"error","message":"Немає доступу! (status code 400)","timestamp":"2022-06-24T15:53:29.283Z"}
+{"level":"info","message":"Resource requested: DELETE /api/user/delete","timestamp":"2022-06-24T15:59:20.871Z"}
+{"level":"error","message":"Немає доступу!!! (status code 500)","timestamp":"2022-06-24T15:59:20.885Z"}
+{"level":"info","message":"Resource requested: PATCH /api/user/password","timestamp":"2022-06-24T16:00:27.010Z"}
+{"level":"error","message":"jwt expired (status code 500)","timestamp":"2022-06-24T16:00:27.017Z"}
+{"level":"info","message":"Resource requested: PATCH /api/user/password","timestamp":"2022-06-24T16:01:18.386Z"}
+{"level":"error","message":"Немає доступу!!! (status code 500)","timestamp":"2022-06-24T16:01:18.486Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T16:01:25.892Z"}
+{"level":"info","message":"Resource requested: PATCH /api/user/password","timestamp":"2022-06-24T16:01:37.609Z"}
+{"level":"error","message":"Користувач не знайдений (status code 500)","timestamp":"2022-06-24T16:01:37.694Z"}
+{"level":"info","message":"Resource requested: PATCH /api/user/password","timestamp":"2022-06-24T16:01:44.841Z"}
+{"level":"error","message":"Користувач не знайдений (status code 500)","timestamp":"2022-06-24T16:01:44.849Z"}
+{"level":"info","message":"Resource requested: PATCH /api/user/password","timestamp":"2022-06-24T16:03:38.110Z"}
+{"level":"error","message":"Користувач не знайдений (status code 500)","timestamp":"2022-06-24T16:03:38.132Z"}
+{"level":"info","message":"Resource requested: PATCH /api/user/password","timestamp":"2022-06-24T16:04:39.997Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:03:28.974Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:03:29.480Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:03:52.871Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:03:53.365Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:04:04.951Z"}
+{"level":"error","message":"String must have a minimum length of 6! (status code 400)","timestamp":"2022-06-24T18:04:04.952Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:04:34.860Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:04:35.345Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:06:10.873Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:06:11.395Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:16.684Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:17.177Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:18.245Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:18.305Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:18.900Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:18.961Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:19.380Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:19.439Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:19.834Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:19.893Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:20.281Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:20.341Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:20.746Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:20.806Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:21.148Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:21.208Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:21.575Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:21.634Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:21.961Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:22.021Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:22.344Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:22.403Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:22.732Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:22.792Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:23.107Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:23.175Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:23.460Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:23.519Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:23.846Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:23.909Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:24.207Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:24.280Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:24.527Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:24.587Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:24.811Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:24.875Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:25.118Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:25.177Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:26.054Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:26.113Z"}
+{"level":"info","message":"Resource requested: POST /api/user/login","timestamp":"2022-06-24T18:09:26.662Z"}
+{"level":"error","message":"Акаунт Roman212@gmail.com не істує! (status code 500)","timestamp":"2022-06-24T18:09:26.735Z"}
+{"level":"info","message":"Resource requested: POST /api/user/registration","timestamp":"2022-06-24T18:18:33.857Z"}
+{"level":"info","message":"Resource requested: POST /api/user/registration","timestamp":"2022-06-24T18:20:29.406Z"}
+{"level":"info","message":"Resource requested: POST /api/user/registration","timestamp":"2022-06-24T18:20:38.552Z"}
+{"level":"info","message":"Resource requested: POST /api/user/registration","timestamp":"2022-06-24T18:20:44.039Z"}
+{"level":"info","message":"Resource requested: POST /api/user/registration","timestamp":"2022-06-24T18:20:52.477Z"}
